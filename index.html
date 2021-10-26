@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="form">
+      <h1>Application Form</h1>
+      <form action="form.php">
+        <p class="name"><b>Name:</b></p>
+
+        <input type="text" class="text-form" placeholder="Enter your Name" />
+        <p class="name"><b>Father Name:</b></p>
+
+        <input
+          type="text"
+          class="text-form"
+          placeholder="Enter your Father Name"
+        />
+        <p class="name"><b>Mother Name:</b></p>
+
+        <input
+          type="text"
+          class="text-form"
+          placeholder="Enter your Mother Name"
+        />
+        <p class="name"><b>Present Address:</b></p>
+
+        <input type="text" class="text-form" placeholder="Enter your Address" />
+        <p class="name"><b>Email:</b></p>
+
+        <input type="email" class="text-form" placeholder="Enter your Email" />
+        <p class="name"><b>Conteac Number:</b></p>
+
+        <input
+          type="number"
+          class="text-form"
+          placeholder="Enter your Number"
+        />
+        <hr />
+
+        <p class="name"><b>Date of Birth:</b></p>
+
+        <input type="date" class="text-form" />
+
+        <p class="name"><b>Select Group:</b></p>
+        <div class="radio-btn">
+
+          <input type="radio" class="text-radio" id="science" name="group" value="science"/>
+          <label for="Science">Science</label><br>
+
+          <input type="radio" class="text-radio" id="business" name="group" value="business"/>
+          <label for="Business">Business</label><br>
+
+          <input type="radio" class="text-radio" id="humanities" name="group" value="humanities"/>
+          <label for="Humanities">Hmanities</label><br>
+         </div>
+
+         
+         <div class="cha">
+            <p class="name"><b>Educational Qualification:</b></p>
+        <div class="left">
+            <input type="checkbox" class="text-check" name="chackbox" value="chackbox" /> PSC <br>
+        </div> <br>
+        <div class="left">
+            <input type="checkbox" class="text-check" name="chackbox" value="chackbox" /> JSC <br>
+        </div> <br>
+        <div class="left">
+            <input type="checkbox" class="text-check" name="chackbox" value="chackbox" /> SSC <br>
+        </div> <br>
+        <div class="left">
+            <input type="checkbox" class="text-check" name="chackbox" value="chackbox" /> HSC <br>
+        </div> <br>
+           
+        </div>
+        <select  id="slt">
+            <option value="0">Dhaka</option>
+            <option value="1">Cumilla</option>
+            <option value="2">chitagong</option>
+            <option value="3">Rajshahi</option>
+            <option value="4">Sylleat</option>
+            <option value="5">Dinajpur</option>
+            <option value="6">Borishal</option>
+            <option value="7">Khulna</option>
+            <option value="8">Jessore</option>
+        </select>
+        <p class="name"><b>Select Board:</b></p>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

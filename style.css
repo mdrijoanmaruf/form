@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }          
+ 
+  body {
+    background-color: rgb(94, 107, 92);
+  }
+  h1 {
+    text-align: center;
+    color: rgb(133, 0, 0);
+  }
+  .form {
+    margin: 40px 10vw 40px 10vw;
+    border: 2px solid blue;
+    padding: 10vw;
+    height: 250vh;
+    background-color: rgb(12, 96, 110);
+    border-radius: 15px;
+  }
+  .text-form {
+    height: 6vh;
+    width: 60vw;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    
+  }
+  .text-form:hover {
+    font-size: 15px;
+    border: thick double #32a1ce;
+    color: rgb(63, 36, 36);
+  }
+  .text-form:focus {
+    font-size: 15px;
+    border: 2px solid red;
+    color: rgb(63, 36, 36);
+  }
+  .name {
+    font-size: 20px;
+    margin: 5px;
+  }
+  hr {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .radio-btn{
+      float: right;
+      }
+  .text-radio{
+      margin-top: 5px;
+  }
+  .cha{
+      margin-top: 70px;
+  }
+  .left{
+      position: relative;
+      margin-left: 45vw;
+  }
+  #slt{
+      height: 6vh;
+      width: 30vw;
+      color: rgb(0, 0, 0);
+      background-color: darksalmon;
+      border-radius: 5px;
+      float: right;
+  }
+  #slt:hover{
+      font-size: 15px;
+      
+  }
+  button{
+      height: 7vh;
+      width: 40vw;
+      margin-top: 70px;
+      background-color: red;
+      color: white;
+      border: 2px solid white;
+      border-radius: 8px;
+      margin-left: 10vw;
+  }
+  button:focus{
+      background-color: green;
+      color: white;
+  }
+  button:hover{
+      background-color: green;
+  }
+  
