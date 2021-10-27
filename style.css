@@ -12,7 +12,7 @@
     color: rgb(133, 0, 0);
   }
   .form {
-    margin: 40px 10vw 40px 10vw;
+    margin: 40px 5vw 40px 5vw;
     border: 2px solid blue;
     padding: 10vw;
     height: 180vh;
@@ -21,7 +21,7 @@
   }
   .text-form {
     height: 6vh;
-    width: 60vw;
+    width: 70vw;
     padding: 5px;
     border-radius: 5px;
     border: 2px solid white;
